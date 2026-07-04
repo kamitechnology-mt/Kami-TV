@@ -1,10 +1,7 @@
 {
   "versionName": "1.1.0",
-  "downloadUrl": "https://github.com/kamitechnology-mt/Kami-TV/releases/download/Aggiornamento/KamiTV.apk",
+  "downloadUrl": "https://github.com/kamitechnology-mt/Kami-TV/releases/download/Update/KamiTV.apk",
   "releaseNotes": [
-    "Nuova scheda Droppati",
-    "Risoluzione automatica dei titoli giapponesi in caratteri latini",
-    "Offuscamento e proxy di sicurezza per la chiave TMDb",
-    "Miglioramenti delle prestazioni e stabilità"
+    "Rework totale dell'app"
   ]
 }
