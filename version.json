@@ -2,6 +2,8 @@
   "versionName": "1.1.0",
   "downloadUrl": "https://github.com/kamitechnology-mt/Kami-TV/releases/download/Update/KamiTV.apk",
   "releaseNotes": [
-    "Rework totale dell'app"
+    "Possibilità di rimuovere il Full Screen",
+    "Abilitate le gestures",
+    "Risolti alcuni bug"
   ]
 }
