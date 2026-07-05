@@ -1,0 +1,10 @@
+{
+  "versionName": "1.0.0",
+  "downloadUrl": "https://github.com/kamitechnology-mt/Kami-TV/releases/download/Update/KamiBooks.apk",
+  "releaseNotes": [
+    "Supporto per la ricerca e il tracciamento dei libri tramite Google Books API",
+    "Tracciamento in tempo reale delle pagine lette e barra di progresso di lettura",
+    "Statistiche dettagliate con totale delle pagine e dei libri completati",
+    "Sincronizzazione cloud integrata su Firebase"
+  ]
+}
