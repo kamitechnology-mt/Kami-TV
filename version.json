@@ -1,9 +1,10 @@
 {
-  "versionName": "1.1.0",
+  "versionName": "1.0.0",
   "downloadUrl": "https://github.com/kamitechnology-mt/Kami-TV/releases/download/Update/KamiTV.apk",
   "releaseNotes": [
-    "Possibilità di rimuovere il Full Screen",
-    "Abilitate le gestures",
-    "Risolti alcuni bug"
+    "Nuovo calendario mensile delle uscite nella sezione In Arrivo",
+    "Player trailer cinematografico immersivo con cast, regia, dettagli e compatibilità",
+    "Ottimizzazione spazio titoli nei banner per evitare troncamenti anticipati",
+    "Design del modal uscite giornaliere semplificato senza campanella notifiche"
   ]
 }
