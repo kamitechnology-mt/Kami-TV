@@ -1,10 +1,21 @@
 {
-  "versionName": "1.0.0",
+  "versionName": "1.0.1",
   "downloadUrl": "https://github.com/kamitechnology-mt/Kami-TV/releases/download/Update/KamiTV.apk",
   "releaseNotes": [
-    "Nuova sezione commenti della Community sotto Film e Serie TV 💬",
-    "Badge Sostenitore 👑: Mostrato accanto al nome utente nei commenti e sul cerchio del profilo",
-    "Elimina Account permanentemente ⚠️: Rimozione sicura di tutti i dati dal cloud e pulizia dei commenti per la privacy",
-    "Ottimizzazioni generali e risoluzione di bug (incluso caricamento velocizzato e pulizia automatica locale)"
+    "Nuova sezione 'Tempo Rimanente' ⏱️ nel Profilo con statistiche dettagliate su minuti ed episodi mancanti per terminare le serie in corso.",
+    "Calcolatore interattivo nel Profilo 📊 con slider per regolare il ritmo di visione settimanale e stimare la data di completamento del backlog.",
+    "Nuovi filtri di ricerca e ordinamenti persistenti introdotti in varie sezioni dell'applicazione per facilitare la navigazione 🔍.",
+    "Aggiunta ottimizzazione e supporto alla modalità offline 🔌, con messaggi e banner di avviso localizzati.",
+    "Nuovi filtri di ordinamento introdotti per la sezione Collezioni, inclusi 'Ultimo Guardato' e 'Ultimo Aggiunto' 📂.",
+    "Risoluzione e correzione del sistema di Notifiche Uscite e Notifiche Social 🔔 con ottimizzazione delle autorizzazioni Android/Web e messaggi offline.",
+    "Migliorato e risolto l'algoritmo per il calcolo dei contenuti Correlati e Consigliati 🔗 (con eliminazione dei freeze grafici e dell'errore Out of Memory nei Dettagli).",
+    "Ottimizzazione e risoluzione dei bug nell'importazione dati da TV Time 📺 (con supporto a TV Time Liberator, mappatura intelligente degli episodi e gestione stagioni speciali).",
+    "Sincronizzazione incrementale intelligente dei backup JSON 🔄: ora i dati del cloud e locali vengono uniti senza sovrascritture distruttive.",
+    "Nuovo pop-up di anteprima pre-importazione 📋 con riepilogo statistico dettagliato (elementi trovati vs sincronizzati) e icone allineate.",
+    "Visualizzazione dei poster dei contenuti in corso nel modale del tempo rimanente, con traduzione automatica all'italiano dei titoli in giapponese ⛩️.",
+    "Risoluzione dell'errore QuotaExceededError in localStorage tramite compattazione e potatura automatica all'avvio della cache dei Dettagli 💾.",
+    "Cache locale dei profili con azzeramento delle letture Firestore ridondanti per l'ispezione dei profili social 👑.",
+    "Correzione dell'unione dei dati esistenti per i Preferiti e lo stato della Watchlist nel database locale ✅.",
+    "Allineamento perfetto dei conteggi della schermata principale e dei grafici statistici (incluso Da Guardare con film futuri) 🎯"
   ]
 }
