@@ -2,20 +2,18 @@
   "versionName": "1.0.1",
   "downloadUrl": "https://github.com/kamitechnology-mt/Kami-TV/releases/download/Update/KamiTV.apk",
   "releaseNotes": [
-    "Nuova sezione 'Tempo Rimanente' ⏱️ nel Profilo con statistiche dettagliate su minuti ed episodi mancanti per terminare le serie in corso.",
-    "Calcolatore interattivo nel Profilo 📊 con slider per regolare il ritmo di visione settimanale e stimare la data di completamento del backlog.",
-    "Nuovi filtri di ricerca e ordinamenti persistenti introdotti in varie sezioni dell'applicazione per facilitare la navigazione 🔍.",
-    "Aggiunta ottimizzazione e supporto alla modalità offline 🔌, con messaggi e banner di avviso localizzati.",
-    "Nuovi filtri di ordinamento introdotti per la sezione Collezioni, inclusi 'Ultimo Guardato' e 'Ultimo Aggiunto' 📂.",
-    "Risoluzione e correzione del sistema di Notifiche Uscite e Notifiche Social 🔔 con ottimizzazione delle autorizzazioni Android/Web e messaggi offline.",
-    "Migliorato e risolto l'algoritmo per il calcolo dei contenuti Correlati e Consigliati 🔗 (con eliminazione dei freeze grafici e dell'errore Out of Memory nei Dettagli).",
-    "Ottimizzazione e risoluzione dei bug nell'importazione dati da TV Time 📺 (con supporto a TV Time Liberator, mappatura intelligente degli episodi e gestione stagioni speciali).",
-    "Sincronizzazione incrementale intelligente dei backup JSON 🔄: ora i dati del cloud e locali vengono uniti senza sovrascritture distruttive.",
-    "Nuovo pop-up di anteprima pre-importazione 📋 con riepilogo statistico dettagliato (elementi trovati vs sincronizzati) e icone allineate.",
-    "Visualizzazione dei poster dei contenuti in corso nel modale del tempo rimanente, con traduzione automatica all'italiano dei titoli in giapponese ⛩️.",
-    "Risoluzione dell'errore QuotaExceededError in localStorage tramite compattazione e potatura automatica all'avvio della cache dei Dettagli 💾.",
-    "Cache locale dei profili con azzeramento delle letture Firestore ridondanti per l'ispezione dei profili social 👑.",
-    "Correzione dell'unione dei dati esistenti per i Preferiti e lo stato della Watchlist nel database locale ✅.",
-    "Allineamento perfetto dei conteggi della schermata principale e dei grafici statistici (incluso Da Guardare con film futuri) 🎯"
+    "Risolto bug critico di sincronizzazione cloud (backup JSON) che causava la doppia stringhizzazione dei dati e il crash dell'app 🔄.",
+    "Introdotto sistema di auto-riparazione (self-healing) automatica all'avvio in grado di risanare le tabelle locali corrotte in localStorage 💾.",
+    "Ottimizzazione e risoluzione dei bug nell'importazione dati CSV/JSON da TV Time e TV Time Liberator, con mappatura intelligente degli episodi 📺.",
+    "Risolto il problema di sovrapposizione della barra inferiore su dispositivi Samsung con barra a 3 pulsanti (ora sollevata e fluttuante sopra la barra di sistema) 📱.",
+    "Risolto il bug dello Schermo Intero (Immersive Mode) su Android, ora forzato tramite listener nativo per impedire il ripristino da parte di Capacitor o tastiere 🖥️.",
+    "Migliorata la barra dei tasti Android (indietro, home, recenti), ora colorata a tinta unita con il colore specifico di ciascun tema (stile Instagram) 🪄.",
+    "Corretta la visibilità della barra delle notifiche (orario, batteria, wifi) che ora diventa nera nei temi chiari e bianca nei temi scuri 🎨.",
+    "Ridotto lo spazio verticale in eccesso su smartphone tra il logo KamiTV e il titolo della scheda corrente per un design più snello 📏.",
+    "Nuova barra di navigazione inferiore solida e opaca per i temi standard, preservando l'effetto sfocato satinato solo per i temi Vetro 💎.",
+    "Riprogettato il layout di Modifica Profilo, con pulsanti fluttuanti (fotocamera per upload e cestino per rimozione) integrati direttamente sul cerchio dell'avatar 📸.",
+    "Corretto il contrasto del testo verde nel tema Unicorno, ora scuro e nitido a contrasto elevato 🦄.",
+    "Nuova funzionalità di condivisione di film e serie TV con generazione automatica di link intelligenti e reindirizzamento diretto all'apertura dell'app (deep linking) 🔗.",
+    "Riprogettazione minimalistica dell'area azioni nei dettagli, con icone centrate ed etichette di watchlist più intuitive (In Watchlist / Aggiungi in Watchlist) 📱."
   ]
 }
