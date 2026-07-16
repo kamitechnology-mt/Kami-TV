@@ -2,6 +2,11 @@
   "versionName": "1.0.1",
   "downloadUrl": "https://github.com/kamitechnology-mt/Kami-TV/releases/download/Update/KamiTV.apk",
   "releaseNotes": [
+    "Introdotta la condivisione nativa completa (WhatsApp, social ecc.) tramite foglio di condivisione di sistema su Android e iOS 🔗.",
+    "Configurato il supporto ai collegamenti diretti (Android App Links) per aprire automaticamente l'app cliccando sui link del dominio kamitv.kamiverse.it 📱.",
+    "Risolti i crash di memoria (QuotaExceededError) su browser e WebView disattivando la cache locale ridondante di Firestore ed effettuando l'auto-pulizia all'avvio 🧹.",
+    "Implementato l'auto-scorrimento e caricamento automatico delle pagine successive (infinite scroll) su tablet e schermi ad alta risoluzione 🖥️.",
+    "Aggiunto un tempo massimo di attesa (timeout di 5 secondi) su tutte le chiamate TMDb per evitare schermate bloccate in caricamento ⚡.",
     "Risolto il problema del blocco/timeout di rete (504 Gateway Timeout) introducendo il caching intelligente locale e la ricerca locale di fallback offline in 'Cerca' e 'Scopri' 🔍.",
     "Introdotto un pop-up informativo visivo in Kami TV che avvisa all'avvio o in tempo reale nel caso di problemi del database globale di TMDB ⚠️.",
     "Ottimizzata l'espansione delle categorie ('Visualizza tutto' in Scopri) rendendola istantanea (0ms) a partire dalle liste locali precaricate in memoria ⚡.",
