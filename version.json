@@ -2,18 +2,9 @@
   "versionName": "1.0.1",
   "downloadUrl": "https://github.com/kamitechnology-mt/Kami-TV/releases/download/Update/KamiTV.apk",
   "releaseNotes": [
-    "Risolto bug critico di sincronizzazione cloud (backup JSON) che causava la doppia stringhizzazione dei dati e il crash dell'app 🔄.",
-    "Introdotto sistema di auto-riparazione (self-healing) automatica all'avvio in grado di risanare le tabelle locali corrotte in localStorage 💾.",
-    "Ottimizzazione e risoluzione dei bug nell'importazione dati CSV/JSON da TV Time e TV Time Liberator, con mappatura intelligente degli episodi 📺.",
-    "Risolto il problema di sovrapposizione della barra inferiore su dispositivi Samsung con barra a 3 pulsanti (ora sollevata e fluttuante sopra la barra di sistema) 📱.",
-    "Risolto il bug dello Schermo Intero (Immersive Mode) su Android, ora forzato tramite listener nativo per impedire il ripristino da parte di Capacitor o tastiere 🖥️.",
-    "Migliorata la barra dei tasti Android (indietro, home, recenti), ora colorata a tinta unita con il colore specifico di ciascun tema (stile Instagram) 🪄.",
-    "Corretta la visibilità della barra delle notifiche (orario, batteria, wifi) che ora diventa nera nei temi chiari e bianca nei temi scuri 🎨.",
-    "Ridotto lo spazio verticale in eccesso su smartphone tra il logo KamiTV e il titolo della scheda corrente per un design più snello 📏.",
-    "Nuova barra di navigazione inferiore solida e opaca per i temi standard, preservando l'effetto sfocato satinato solo per i temi Vetro 💎.",
-    "Riprogettato il layout di Modifica Profilo, con pulsanti fluttuanti (fotocamera per upload e cestino per rimozione) integrati direttamente sul cerchio dell'avatar 📸.",
-    "Corretto il contrasto del testo verde nel tema Unicorno, ora scuro e nitido a contrasto elevato 🦄.",
-    "Nuova funzionalità di condivisione di film e serie TV con generazione automatica di link intelligenti e reindirizzamento diretto all'apertura dell'app (deep linking) 🔗.",
-    "Riprogettazione minimalistica dell'area azioni nei dettagli, con icone centrate ed etichette di watchlist più intuitive (In Watchlist / Aggiungi in Watchlist) 📱."
+    "Risolto il problema del blocco/timeout di rete (504 Gateway Timeout) introducendo il caching intelligente locale e la ricerca locale di fallback offline in 'Cerca' e 'Scopri' 🔍.",
+    "Introdotto un pop-up informativo visivo in Kami TV che avvisa all'avvio o in tempo reale nel caso di problemi del database globale di TMDB ⚠️.",
+    "Ottimizzata l'espansione delle categorie ('Visualizza tutto' in Scopri) rendendola istantanea (0ms) a partire dalle liste locali precaricate in memoria ⚡.",
+    "Aggiunta spaziatura inferiore nella pagina dei dettagli per evitare che l'ultimo elemento rimanga a filo con il bordo dello schermo 📏."
   ]
 }
