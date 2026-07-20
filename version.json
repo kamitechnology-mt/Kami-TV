@@ -2,13 +2,14 @@
   "versionName": "1.0.1",
   "downloadUrl": "https://github.com/kamitechnology-mt/Kami-TV/releases/download/Update/KamiTV.apk",
   "releaseNotes": [
-    "Aggiornamento numero Build 13",
-    "Nuova Feature in Opzioni: Numerazione Relativa.",
-    "Spostata la sezione Correlati all'interno della scheda di Serie e Film.",
-    "Aggiornato il Feedback Aptico per essere pulito e breve.",
-    "Risolti alcuni problemi di layout grafico.",
-    "Risolti gli errori su PWA / iOS.",
-    "Migliorato l'algoritmo di Compatibilità tra Serie e Film.",
-    "Fix bug minori."
+    "Aggiornamento Build 14",
+    "Lobby Co-op (Insieme): introdotta la nuova funzionalità per condividere watchlist e progressi di visione in tempo reale con amici, completa di protezione PIN, lobby multiple, approvazione dei membri e cronologia attività.",
+    "Ruota del Destino: aggiunti i filtri avanzati per origine (Da Guardare/Consigliati) e tipologia (Film/Serie) con traduzione automatica dei titoli localizzati.",
+    "Notifiche Programmate: introdotto il flusso automatico a doppia notifica (alert mattutino e alert puntuale al rilascio) con tracciamento dell'orario esatto di trasmissione tramite TVmaze.",
+    "Temi e Personalizzazione: ottimizzato il funzionamento del Tema Camaleonte direttamente su document.body, integrato l'interruttore all'interno della modale dei temi e rimosso il doppio click audio.",
+    "Audio e Vibrazione: disattivato il doppio suono sui toggle delle impostazioni e rimosso il suono di transizione durante l'uso del tasto indietro nativo Android.",
+    "Miglioramenti UI e Integrazioni: abilitata l'apertura automatica delle app esterne (Netflix, Prime Video, Crunchyroll, ecc.) cliccando sui provider, ottimizzata la barra di navigazione ed eliminati i blocchi CORS per le locandine.",
+    "Bug Fix Notifiche: risolto il problema delle notifiche duplicate all'apertura dell'app, corretto l'allineamento dei promemoria nelle impostazioni e ottimizzato il matching degli anime tramite confronto per data di trasmissione.",
+    "Changelog in Impostazioni: rimosso l'elenco novità dal popup iniziale di aggiornamento, che adesso è consultabile su richiesta cliccando sulla versione dell'app."
   ]
 }
