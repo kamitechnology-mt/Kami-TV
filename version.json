@@ -2,7 +2,7 @@
   "versionName": "1.0.1",
   "downloadUrl": "https://github.com/kamitechnology-mt/Kami-TV/releases/download/Update/KamiTV.apk",
   "releaseNotes": [
-    "Aggiornamento Build 17",
+    "Aggiornamento Build 18",
     "Rimossa la vecchia sezione dei correlati in favore del download diretto integrato da TMDB.",
     "Modale Cast & Attori: aggiunta la possibilità di visualizzare il cast completo con biografia, social ufficiali e la filmografia a loro correlata.",
     "Migliorate ed arricchite le informazioni visive, i dettagli generali ed il layout della pagina dei contenuti.",
@@ -14,6 +14,9 @@
     "Galleria Media 100% TMDB: sbloccata la totalità degli sfondi e poster disponibili in alta definizione senza restrizioni di lingua.",
     "Download Diretto Multi-Piattaforma: ottimizzato il download diretto dei media e delle cartoline su Web, PWA, Android ed iOS senza apertura di schede esterne.",
     "Nomi File Unici e Dinamici: aggiunto il timestamp in millisecondi in tempo reale per evitare nomi duplicati ed eliminare i suffissi (1) (2).",
-    "Cartolina Condividi Grafica Dorata: ingrandito e stilizzato il link watermark in oro 24K metallico ed inibito il feedback sonoro al salvataggio."
+    "Cartolina Condividi Grafica Dorata: ingrandito e stilizzato il link watermark in oro 24K metallico ed inibito il feedback sonoro al salvataggio.",
+    "Registro Modifiche Automatico: apertura istantanea del registro notifiche all'avvio dopo ogni nuovo aggiornamento.",
+    "Fix Autenticazione Utente: risolto il problema di cooldown per l'invio dell'email di verifica durante la registrazione ed il reset password.",
+    "Tema Chiaro & Accessibilità: ottimizzato il contrasto cromatico del testo sui messaggi di avviso e supporto tema chiaro."
   ]
 }
