@@ -2,14 +2,18 @@
   "versionName": "1.0.1",
   "downloadUrl": "https://github.com/kamitechnology-mt/Kami-TV/releases/download/Update/KamiTV.apk",
   "releaseNotes": [
-    "Aggiornamento Build 16",
-    "Lobby Co-op (Insieme): introdotta la nuova funzionalità per condividere watchlist e progressi di visione in tempo reale con amici, completa di protezione PIN, lobby multiple, approvazione dei membri e cronologia attività.",
-    "Ruota del Destino: aggiunti i filtri avanzati per origine (Da Guardare/Consigliati) e tipologia (Film/Serie) con traduzione automatica dei titoli localizzati.",
-    "Notifiche Programmate: introdotto il flusso automatico a doppia notifica (alert mattutino e alert puntuale al rilascio) con tracciamento dell'orario esatto di trasmissione tramite TVmaze.",
-    "Temi e Personalizzazione: ottimizzato il funzionamento del Tema Camaleonte direttamente su document.body, integrato l'interruttore all'interno della modale dei temi e rimosso il doppio click audio.",
-    "Audio e Vibrazione: disattivato il doppio suono sui toggle delle impostazioni e rimosso il suono di transizione durante l'uso del tasto indietro nativo Android.",
-    "Miglioramenti UI e Integrazioni: abilitata l'apertura automatica delle app esterne (Netflix, Prime Video, Crunchyroll, ecc.) cliccando sui provider, ottimizzata la barra di navigazione ed eliminati i blocchi CORS per le locandine.",
-    "Bug Fix Notifiche: risolto il problema delle notifiche duplicate all'apertura dell'app, corretto l'allineamento dei promemoria nelle impostazioni e ottimizzato il matching degli anime tramite confronto per data di trasmissione.",
-    "Changelog in Impostazioni: rimosso l'elenco novità dal popup iniziale di aggiornamento, che adesso è consultabile su richiesta cliccando sulla versione dell'app."
+    "Aggiornamento Build 17",
+    "Rimossa la vecchia sezione dei correlati in favore del download diretto integrato da TMDB.",
+    "Modale Cast & Attori: aggiunta la possibilità di visualizzare il cast completo con biografia, social ufficiali e la filmografia a loro correlata.",
+    "Migliorate ed arricchite le informazioni visive, i dettagli generali ed il layout della pagina dei contenuti.",
+    "Galleria Media: aggiunta la sezione per visualizzare e scaricare sfondi e poster in alta definizione.",
+    "Sezione Consigliati: migliorata ed ottimizzata la sezione 'Se ti è piaciuto' (Consigliati per te).",
+    "Grafica Generale: migliorata l'estetica generale dell'interfaccia con uno stile moderno e curato.",
+    "Prestazioni e GPU: potenziata la fluidità globale a full FPS con accelerazione hardware GPU, decodifica asincrona delle immagini e calcoli multi-threaded.",
+    "Traduzione Titoli Stranieri: potenziato ed uniformato il motore di traduzione automatica per titoli stranieri ed orientali (giapponesi, coreani, indiani, cinesi).",
+    "Galleria Media 100% TMDB: sbloccata la totalità degli sfondi e poster disponibili in alta definizione senza restrizioni di lingua.",
+    "Download Diretto Multi-Piattaforma: ottimizzato il download diretto dei media e delle cartoline su Web, PWA, Android ed iOS senza apertura di schede esterne.",
+    "Nomi File Unici e Dinamici: aggiunto il timestamp in millisecondi in tempo reale per evitare nomi duplicati ed eliminare i suffissi (1) (2).",
+    "Cartolina Condividi Grafica Dorata: ingrandito e stilizzato il link watermark in oro 24K metallico ed inibito il feedback sonoro al salvataggio."
   ]
 }
