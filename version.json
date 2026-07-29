@@ -1,17 +1,20 @@
 {
-  "versionName": "1.0.1",
+  "versionName": "1.0.2",
   "downloadUrl": "https://github.com/kamitechnology-mt/Kami-TV/releases/download/Update/KamiTV.apk",
   "releaseNotes": [
-    "Aggiornamento Build 19",
-    "Risolti i problemi di Quota nel LocalStorage: implementata la pulizia automatica dei dettagli media non più in watchlist, compressione dei dati e gestione sicura dello storage locale per prevenire errori di memoria piena (QuotaExceededError).",
-    "Risolto il problema del Download della cartolina social generata da KamiTV: corretto il tracciamento grafico del canvas, rimossa la linea di interferenza sul logo, ottimizzato il rendering in alta risoluzione con download nativo immediato su Android, iOS e Web.",
-    "Risolto il problema dei video con doppio audio: inibita la riproduzione contemporanea e la sovrapposizione audio dei trailer/player durante l'apertura e chiusura delle modali media.",
-    "Operatività 100% Offline e gestione di rete: l'applicazione funziona perfettamente anche senza connessione internet, consentendo l'uso completo di collezioni, tracciamento, voti e cronologia in locale con sincronizzazione automatica sul Cloud al rientro online; implementato il popup di avviso dedicato 'KamiTV Offline' ed il blocco preventivo dei pulsanti di rete non disponibili.",
-    "Migliorate le prestazioni e azzerati i lag nella scheda Dettagli: modularizzata l'intera pagina con l'architettura a Slice componenti (DetailsHeroSection, SeasonEpisodesSection, CastCrewSection, MediaGallerySection, RecommendationsSection, AwardsSection), differito il caricamento delle sezioni secondarie tramite intersezione viewport e ridotta la frequenza dei rendering pesanti.",
-    "Risolti i problemi alle notifiche: ottimizzata la pianificazione automatica e la diagnostica degli orari di rilascio degli episodi (TVmaze airtime) per evitare notifiche duplicate o mancanti.",
-    "Risolte le traduzioni all'interno della Ruota del Destino (Selezione Casuale Co-op): uniformati i testi, le etichette ed i messaggi sia in italiano che in inglese.",
-    "Aggiunta la nuova sezione Riconoscimenti & Premi (Awards): visualizzazione dei badge dorati per Oscar, Emmy, Golden Globe, Vittorie e Nomination totali, con riepilogo in italiano, modal interattivo dedicato e collegamenti diretti alle schede ufficiali IMDb e TMDb.",
-    "Ripristinata e potenziata la sezione 'Dove Guardarlo' (Streaming): integrazione aggiornata per individuare le piattaforme ufficiali di streaming (Netflix, Prime Video, Disney+, etc.).",
-    "Aggiornamento Licenza & Fonti Dati: inclusa formalmente IMDb tra le fonti dati dell'applicazione insieme a TMDb."
+    "Nuova Versione 1.0.2",
+    "Nuova Build 20",
+    "Architettura a Slices: Potenziata ed ottimizzata l'organizzazione dei moduli per le sezioni Collezioni e Stanze Co-op, garantendo massima velocità e fluidità dell'interfaccia",
+    "Stanza Co-op: Risolto il bug di selezione ed il riempimento automatico degli episodi precedenti ed il pulsante 'Rimuovi 1 visione'",
+    "Stanza Co-op: Aggiunto pulsante dedicato 'Rimuovi dalla Stanza' per eliminare i titoli dalla watchlist condivisa",
+    "Stanza Co-op: Ripristinate le statistiche 'Film Visti' ed il calcolo del tempo di visione stimato per i film",
+    "Stanza Co-op: Attivati i filtri per tipo (Tutti, Serie TV, Film), la ricerca per titolo e l'ordinamento",
+    "Stanza Co-op: Rimosso pulsante 'In Lista', commenti, recensioni e preferiti per un'interfaccia pulita in modalità Co-op",
+    "Scopri: Ottimizzata la riproduzione audio del click mantenendo un solo effetto sonoro pulito su 'Vedi tutti'",
+    "Ricerca: Risolto il problema che rischiava di mostrare i dettagli di una serie TV o film diverso da quello cliccato nei risultati di ricerca",
+    "Collezioni In Arrivo: Ripristinata e corretta la visualizzazione degli orari esatti di uscita (airtime) per le serie TV",
+    "Risolte traduzioni ed eccezioni JS sulla gestione dei media nella Stanza",
+    "Aggiornata l'icona di KamiTV",
+    "Migliorata la qualità visiva ed arrotondamento ad alta definizione per le icone di KamiTV"
   ]
 }
