@@ -3,18 +3,11 @@
   "downloadUrl": "https://github.com/kamitechnology-mt/Kami-TV/releases/download/Update/KamiTV.apk",
   "releaseNotes": [
     "Nuova Versione 1.0.2",
-    "Nuova Build 20",
-    "Architettura a Slices: Potenziata ed ottimizzata l'organizzazione dei moduli per le sezioni Collezioni e Stanze Co-op, garantendo massima velocità e fluidità dell'interfaccia",
-    "Stanza Co-op: Risolto il bug di selezione ed il riempimento automatico degli episodi precedenti ed il pulsante 'Rimuovi 1 visione'",
-    "Stanza Co-op: Aggiunto pulsante dedicato 'Rimuovi dalla Stanza' per eliminare i titoli dalla watchlist condivisa",
-    "Stanza Co-op: Ripristinate le statistiche 'Film Visti' ed il calcolo del tempo di visione stimato per i film",
-    "Stanza Co-op: Attivati i filtri per tipo (Tutti, Serie TV, Film), la ricerca per titolo e l'ordinamento",
-    "Stanza Co-op: Rimosso pulsante 'In Lista', commenti, recensioni e preferiti per un'interfaccia pulita in modalità Co-op",
-    "Scopri: Ottimizzata la riproduzione audio del click mantenendo un solo effetto sonoro pulito su 'Vedi tutti'",
-    "Ricerca: Risolto il problema che rischiava di mostrare i dettagli di una serie TV o film diverso da quello cliccato nei risultati di ricerca",
-    "Collezioni In Arrivo: Ripristinata e corretta la visualizzazione degli orari esatti di uscita (airtime) per le serie TV",
-    "Risolte traduzioni ed eccezioni JS sulla gestione dei media nella Stanza",
-    "Aggiornata l'icona di KamiTV",
-    "Migliorata la qualità visiva ed arrotondamento ad alta definizione per le icone di KamiTV"
+    "Nuova Build 21",
+    "Nuova Icona KamiTV: Rimodellata la grafica flat HD ad alta definizione senza rilievi con proporzioni e logo perfetti",
+    "Feedback Aptico Uniforme: Integrato il Taptic Engine nativo di sistema per vibrazioni tattili precise e coerenti in ogni schermata",
+    "Volume ed Effetti Audio: Volume predefinito al 100% nelle impostazioni con comodi selettori rapidi (25%, 50%, 75%, 100%)",
+    "Sincronizzazione Istantanea (0ms Lag): Pre-riscaldamento hardware WebAudio e risposta nativa immediata al tocco per 0ms di latenza tra audio, vibrazione e azione",
+    "Ottimizzazione TMDb e Cache: Deduplicazione automatica degli ID orfani e pulizia della cache per prevenire errori 404"
   ]
 }
