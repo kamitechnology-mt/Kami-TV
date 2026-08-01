@@ -3,11 +3,10 @@
   "downloadUrl": "https://github.com/kamitechnology-mt/Kami-TV/releases/download/Update/KamiTV.apk",
   "releaseNotes": [
     "Nuova Versione 1.0.2",
-    "Nuova Build 21",
-    "Nuova Icona KamiTV: Rimodellata la grafica flat HD ad alta definizione senza rilievi con proporzioni e logo perfetti",
-    "Feedback Aptico Uniforme: Integrato il Taptic Engine nativo di sistema per vibrazioni tattili precise e coerenti in ogni schermata",
-    "Volume ed Effetti Audio: Volume predefinito al 100% nelle impostazioni con comodi selettori rapidi (25%, 50%, 75%, 100%)",
-    "Sincronizzazione Istantanea (0ms Lag): Pre-riscaldamento hardware WebAudio e risposta nativa immediata al tocco per 0ms di latenza tra audio, vibrazione e azione",
-    "Ottimizzazione TMDb e Cache: Deduplicazione automatica degli ID orfani e pulizia della cache per prevenire errori 404"
+    "Nuova Build 22",
+    "Esportazione Backup JSON Universale: Risolto il problema del download su smartphone (Android/iOS Safari) tramite Web Share API nativa e salvataggio locale",
+    "Aggiornamento Backend e Sicurezza: Connessione completa al nuovo backend Firebase e gestione Mailer Aruba SMTP per email grafiche",
+    "Ripristino & Associazione Dati: Sistema di associazione dati storici tramite script interattivo per unire vecchi progressi ai nuovi UID",
+    "Stanze Co-op e Sincronizzazione: Ripristino completo e sincronizzazione in tempo reale per le stanze condivise"
   ]
 }
