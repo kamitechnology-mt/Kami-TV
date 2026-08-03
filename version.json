@@ -1,12 +1,14 @@
 {
+  "versionCode": 23,
   "versionName": "1.0.2",
   "downloadUrl": "https://github.com/kamitechnology-mt/Kami-TV/releases/download/Update/KamiTV.apk",
   "releaseNotes": [
-    "Nuova Versione 1.0.2",
-    "Nuova Build 22",
-    "Esportazione Backup JSON Universale: Risolto il problema del download su smartphone (Android/iOS Safari) tramite Web Share API nativa e salvataggio locale",
-    "Aggiornamento Backend e Sicurezza: Connessione completa al nuovo backend Firebase e gestione Mailer Aruba SMTP per email grafiche",
-    "Ripristino & Associazione Dati: Sistema di associazione dati storici tramite script interattivo per unire vecchi progressi ai nuovi UID",
-    "Stanze Co-op e Sincronizzazione: Ripristino completo e sincronizzazione in tempo reale per le stanze condivise"
+    "Nuova Build: 23",
+    "Notifiche Push real time per la parte Social",
+    "Notifiche pop-up real time interne all'app",
+    "Refresh Orari e Notifiche all'apertura e cliccare la notifica apre la serie/film",
+    "Fix suoni e feedback aptico (0ms di ritardo e rimozione suoni duplicati)",
+    "Nuovi aggiornamenti real time senza dover aggiornare l'APK Android",
+    "Fix esporta JSON che su Android APK o Webapp PWA non scarica il JSON"
   ]
 }
