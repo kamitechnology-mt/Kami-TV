@@ -1,17 +1,14 @@
 {
-  "versionCode": 24,
+  "versionCode": 25,
   "versionName": "1.0.3",
   "downloadUrl": "https://github.com/kamitechnology-mt/Kami-TV/releases/download/Update/KamiTV.apk",
   "releaseNotes": [
     "Nuova Versione: 1.0.3",
-    "Nuova Build: 24",
-    "Rimossi gli aggiornamenti Real Time per Android APK (Era un esperimento)",
-    "Nuovi temi speciali visivi: Manga Shonen 🎌, Retrò Synthwave 🕹️, Perla Cosmica 🔮 e Drago Rosso 🐉",
-    "Sezione Temi Speciali espandibile nel modale di selezione tema con feedback sonoro",
-    "Rimozione globale scrollbar verticali per layout fluido stile app nativa",
-    "Fix indicatore di selezione nav-bar al riavvio dell'app",
-    "Fix icone e testo nero sulla barra delle notifiche per tutti i temi chiari",
-    "Fix riproduzione audio al cambio tema e risoluzione schermata nera",
-    "Fix generici sulla navigazione"
+    "Nuova Build: 25",
+    "Fix grafico per i Temi Manga Shonen e Manga Dark.",
+    "Fix Episodi Speciali che facevano riferimento a Stagione 01.",
+    "Fix calendarizzazione in Arrivo: organizzazione precisa per Questa Settimana, Settimana Prossima, Questo Mese e Mese Prossimo.",
+    "Rimossa la Vista Lista ormai deprecata.",
+    "Modularizzazione CSS dei temi per prestazioni e caricamento ottimali."
   ]
 }
