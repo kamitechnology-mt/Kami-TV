@@ -3,12 +3,13 @@
   "versionName": "1.0.3",
   "downloadUrl": "https://github.com/kamitechnology-mt/Kami-TV/releases/download/Update/KamiTV.apk",
   "releaseNotes": [
-    "Nuova Versione: 1.0.3",
-    "Nuova Build: 25",
-    "Fix grafico per i Temi Manga Shonen e Manga Dark.",
-    "Fix Episodi Speciali che facevano riferimento a Stagione 01.",
-    "Fix calendarizzazione in Arrivo: organizzazione precisa per Questa Settimana, Settimana Prossima, Questo Mese e Mese Prossimo.",
-    "Rimossa la Vista Lista ormai deprecata.",
-    "Modularizzazione CSS dei temi per prestazioni e caricamento ottimali."
+    "Nuova Versione: 1.0.3 (Build 25)",
+    "Fix e restyle grafico completo per i temi Manga Shonen e Manga Dark (locandine, collezioni, modali media e trailer).",
+    "Risoluzione errori e ottimizzazione delle query al Database (DB).",
+    "Correzione dell'importazione CSV da TVTime dei Film per gli account storici.",
+    "Aggiunto il pulsante 'Salta tutte le incongruenze' durante l'importazione CSV.",
+    "Aggiornata la gestione dei temi Supporter: Perla Cosmica diventa Tema Standard gratuito e Manga Dark diventa il nuovo Tema Supporter.",
+    "Rimozione completa del tema dinamico 'Camaleonte' e di tutti i relativi riferimenti nell'app.",
+    "Miglioramento e affinamento generale delle traduzioni nell'applicazione."
   ]
 }
