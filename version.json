@@ -1,9 +1,9 @@
 {
-  "versionCode": 25,
+  "versionCode": 26,
   "versionName": "1.0.3",
   "downloadUrl": "https://github.com/kamitechnology-mt/Kami-TV/releases/download/Update/KamiTV.apk",
   "releaseNotes": [
-    "Nuova Versione: 1.0.3 (Build 25)",
+    "Nuova Versione: 1.0.3 (Build 26)",
     "Fix e restyle grafico completo per i temi Manga Shonen e Manga Dark (locandine, collezioni, modali media e trailer).",
     "Risoluzione errori e ottimizzazione delle query al Database (DB).",
     "Correzione dell'importazione CSV da TVTime dei Film per gli account storici.",
