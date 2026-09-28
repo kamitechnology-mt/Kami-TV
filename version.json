@@ -1,16 +1,14 @@
 {
-  "versionCode": "27",
+  "versionCode": 28,
   "versionName": "1.0.3",
   "downloadUrl": "https://github.com/kamitechnology-mt/Kami-TV/releases/download/Update/KamiTV.apk",
   "releaseNotes": [
-    "Nuova Versione: 1.0.3 (Build 27)",
-    "Ripristinata la Ruota del Destino sia in Collezioni che Stanze, che fu erroneamente rimossa.",
-    "Inserita la possibilità di mettere Visto più volte anche ai Film quindi +1 o -1",
-    "Aggiunto un check iniziale al caricamento del Tempo Totale degli episodi e film visti per sincronizzare il Profilo.",
-    "Risolto un problema sul Tempo Totale in Profilo.",
-    "Risolto un problema con il caricamento iniziale che rischiava di mostrare il pop-up di verifica mail.",
-    "Risolto un problema con il caricamento iniziale che da 100% tornava ad 80%.",
-    "Risolto un problema con la traduzione di alcune variabili.",
-    "Risolti alcuni bug grafici."
+    "Nuova Versione: 1.0.3 (Build 28)",
+    "Risolto definitivamente il blocco del salvataggio degli episodi visti causato dal superamento del limite cloud per utenti con librerie molto grandi.",
+    "Introdotta l'archiviazione locale avanzata IndexedDB per i dettagli multimediali e partizionamento automatico cloud a shard (zero limiti fisici di spazio).",
+    "Sistema di Self-Healing automatico: snellimento e ottimizzazione proattiva del documento cloud su Firestore all'avvio.",
+    "Fix orari di uscita e sblocco immediato degli episodi anime (es. simulcast/fuso orario JST come Mushoku Tensei) e risoluzione delle doppie notifiche.",
+    "Migliorato il feedback al tocco sugli episodi non ancora trasmessi con avviso sonoro e visivo dedicato.",
+    "Risoluzione di errori e anomalie su richieste proxy verso media rimossi."
   ]
 }
