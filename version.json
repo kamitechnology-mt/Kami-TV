@@ -1,14 +1,18 @@
 {
-  "versionCode": 28,
+  "versionCode": 29,
   "versionName": "1.0.3",
   "downloadUrl": "https://github.com/kamitechnology-mt/Kami-TV/releases/download/Update/KamiTV.apk",
   "releaseNotes": [
-    "Nuova Versione: 1.0.3 (Build 28)",
-    "Risolto definitivamente il blocco del salvataggio degli episodi visti causato dal superamento del limite cloud per utenti con librerie molto grandi.",
-    "Introdotta l'archiviazione locale avanzata IndexedDB per i dettagli multimediali e partizionamento automatico cloud a shard (zero limiti fisici di spazio).",
-    "Sistema di Self-Healing automatico: snellimento e ottimizzazione proattiva del documento cloud su Firestore all'avvio.",
-    "Fix orari di uscita e sblocco immediato degli episodi anime (es. simulcast/fuso orario JST come Mushoku Tensei) e risoluzione delle doppie notifiche.",
-    "Migliorato il feedback al tocco sugli episodi non ancora trasmessi con avviso sonoro e visivo dedicato.",
-    "Risoluzione di errori e anomalie su richieste proxy verso media rimossi."
+    "Nuova Versione: 1.0.3 (Build 29)",
+    "Risolto un problema dove gli episodi e film visti venivano calcolati due volte (+2) nel Profilo.",
+    "Risolto un problema dove in Profilo gli episodi visti venivano raddoppiati con un doppio check.",
+    "Risolto un problema dove gli episodi Speciali (Stagione 0) non venivano conteggiati nel Profilo.",
+    "Risolto un problema dove nelle Stanze Co-op i film non venivano inseriti o conteggiati correttamente.",
+    "Aggiunto un sistema di Self-Healing generale del Profilo per sincronizzare episodi e tempo visto con i dati reali.",
+    "Aggiunta la possibilità di inserire e modificare la foto profilo per le Stanze Co-op (solo Host).",
+    "Aggiunta la possibilità di modificare PIN e nome della stanza (solo Host).",
+    "Rimosso il Rank da tutti i profili per prevenire anomalie e bug visivi.",
+    "Nuovo formato codici stanza Co-op aggiornato a KAMITV-XXXX con codice stanza ora visibile all'esterno sulle card.",
+    "Miglioramenti grafici e di usabilità nell'interfaccia Co-op e riorganizzazione responsive della sezione Membri."
   ]
 }
