@@ -1,18 +1,13 @@
 {
-  "versionCode": 29,
-  "versionName": "1.0.3",
+  "versionCode": 30,
+  "versionName": "1.0.4",
   "downloadUrl": "https://github.com/kamitechnology-mt/Kami-TV/releases/download/Update/KamiTV.apk",
   "releaseNotes": [
-    "Nuova Versione: 1.0.3 (Build 29)",
-    "Risolto un problema dove gli episodi e film visti venivano calcolati due volte (+2) nel Profilo.",
-    "Risolto un problema dove in Profilo gli episodi visti venivano raddoppiati con un doppio check.",
-    "Risolto un problema dove gli episodi Speciali (Stagione 0) non venivano conteggiati nel Profilo.",
-    "Risolto un problema dove nelle Stanze Co-op i film non venivano inseriti o conteggiati correttamente.",
-    "Aggiunto un sistema di Self-Healing generale del Profilo per sincronizzare episodi e tempo visto con i dati reali.",
-    "Aggiunta la possibilità di inserire e modificare la foto profilo per le Stanze Co-op (solo Host).",
-    "Aggiunta la possibilità di modificare PIN e nome della stanza (solo Host).",
-    "Rimosso il Rank da tutti i profili per prevenire anomalie e bug visivi.",
-    "Nuovo formato codici stanza Co-op aggiornato a KAMITV-XXXX con codice stanza ora visibile all'esterno sulle card.",
-    "Miglioramenti grafici e di usabilità nell'interfaccia Co-op e riorganizzazione responsive della sezione Membri."
+    "Nuova Versione: 1.0.4 (Build 30)",
+    "Risolto un problema con le Notifiche (risolto il reset della schermata In Arrivo al login e le notifiche perse).",
+    "Migliorato l'algoritmo delle Notifiche con calcolo avanzato delle uscite, prevenzione conflitti e cache ottimizzata.",
+    "Aggiunto il riparatore Notifiche in Opzioni per verificare e rigenerare la coda notifiche in qualunque momento.",
+    "Introdotto il Self-Healing per discrepanze TMDb: rileva stagioni rimosse o modificate (404), risincronizza la serie e mostra le modifiche nel Debug.",
+    "Migliorata la sicurezza generale dell'app con protezione avanzata e blocco totale dei DevTools in produzione."
   ]
 }
