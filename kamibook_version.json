@@ -1,8 +1,16 @@
 {
-  "versionName": "1.0.0",
+  "versionName": "1.0.1",
+  "versionCode": 5,
+  "build": 5,
+  "latestBuildVersion": 5,
   "downloadUrl": "https://github.com/kamitechnology-mt/Kami-TV/releases/download/Update/KamiBooks.apk",
   "releaseNotes": [
     "Miao ≽^•⩊•^≼",
-    "Risolto il problema delle pagine fisse a 250 per ogni libro"
+    "Risolto il bug dei libri bloccati a 250 pagine: ora puoi aggiornare liberamente i tuoi progressi di lettura senza limiti",
+    "Nuovo motore ibrido automatico per pagine reali ed editore (Apple Books, Open Library e catalogo nazionale OPAC SBN)",
+    "Migrazione automatica in background del numero di pagine reale per tutti i libri già presenti in libreria",
+    "Inserimento diretto da tastiera della pagina attuale (o percentuale Kindle) con pulsanti rapidi -10, -1, +1 e +10",
+    "Possibilità di modificare manualmente le pagine totali in base alla propria edizione cartacea, con sincronizzazione Cloud",
+    "Sblocco automatico dei libri segnati erroneamente come completati a 250 pagine e riallineamento di filtri e statistiche"
   ]
 }
